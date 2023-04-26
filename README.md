@@ -1,17 +1,15 @@
-Projeler
-Proje 2
-[16,21,11,8,12,22] -> Merge Sort
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız. Big-O gösterimini yazınız.
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 
-Çözüm
+root 7 olduğunda,
 
-16 21 11 8 12 22
-16 21 11 - 8 12 22
-16 - 21 11 - 8 12 - 22
-16 - 21 - 11 - 8 - 12 - 22
-16 - 11 21 - 8 12 - 22
-11 16 21 - 8 12 22
-8 11 12 16 21 22
-
-O(nlogn)
+                      7     --->Root
+                    /   \
+                   5      8
+                  / \      \
+                 1   6      9
+                / \
+                0  3
+                  /  \
+                 2    4
